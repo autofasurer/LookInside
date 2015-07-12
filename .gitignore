@@ -1,0 +1,18 @@
+
+.DS_Store
+
+addons.make
+
+config.make
+
+LookInside.xcodeproj/project.pbxproj
+
+LookInside.xcodeproj/xcshareddata/xcschemes/LookInside Debug.xcscheme
+
+LookInside.xcodeproj/xcshareddata/xcschemes/LookInside Release.xcscheme
+
+Makefile
+
+openFrameworks-Info.plist
+
+Project.xcconfig
