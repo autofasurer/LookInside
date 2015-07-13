@@ -2,7 +2,7 @@
 
 #include "ofMain.h"
 
-class ofApp : public ofBaseApp{
+class lookInside : public ofBaseApp{
 
 	public:
 		void setup();
@@ -18,5 +18,8 @@ class ofApp : public ofBaseApp{
 		void windowResized(int w, int h);
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
-		
+    
+    ofLight             light;
+    ofSpherePrimitive   outer, inner;
+	double              planeEquation[4] = {-0.1, 0, -0.1, 1.};
 };
